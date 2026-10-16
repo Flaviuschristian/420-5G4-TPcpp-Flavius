@@ -176,7 +176,7 @@ int main(int argc, char* argv[]) {
             case 6: // Display Available Books
                 library.displayAvailableBooks();
                 pauseForInput();
-                break;
+                break; 
             
             case 7: { // Add User
                 string name = getInput("Entrez le nom de l'utilisateur : ");
